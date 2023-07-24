@@ -7,7 +7,11 @@ def get_model(img_width, img_height):
         layers.Flatten(input_shape=(img_width, img_height)),
 
         # hidden layer is 128 deep
+        layers.Dense(units=32, activation='relu'),
+        layers.Dense(units=64, activation='relu'),
         layers.Dense(units=128, activation='relu'),
+        layers.Dense(units=64, activation='relu'),
+        layers.Dense(units=32, activation='relu'),
 
         # output is 0-9 (depending on what piece of cloth it is). return maximum
         layers.Dense(units=10, activation='softmax')
