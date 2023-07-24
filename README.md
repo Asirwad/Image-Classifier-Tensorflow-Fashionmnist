@@ -1,7 +1,7 @@
 # Image Classification with TensorFlow Keras on Fashion MNIST Dataset
 
 <p align="center">
-  <img src="https://storage.googleapis.com/tfds-data/visualization/fig/fashion_mnist-3.0.1.png" alt="Project Logo" width="300">
+  <img src="fashion_mnist-3.0.1.png" alt="alt" width="300">
 </p>
 
 
