@@ -30,6 +30,11 @@ The 10 classes in the dataset are:
 | 8 | Bag |
 | 9 | Ankle boot |
 
+## Model Architecture
+<p align="center">
+  <img src="app/models/model.svg" alt="alt" width="100">
+</p>
+
 ## Requirements
 
 Make sure you have the following libraries installed:
