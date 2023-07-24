@@ -17,16 +17,9 @@ The Fashion MNIST dataset consists of 70,000 grayscale images belonging to 10 di
 
 The 10 classes in the dataset are:
 
-1. T-shirt/top
-2. Trouser/pants
-3. Pullover shirt
-4. Dress
-5. Coat
-6. Sandal
-7. Shirt
-8. Sneaker
-9. Bag
-10. Ankle boot
+<p align="center">
+  <img src="table.png" alt="alt" width="800">
+</p>
 
 ## Requirements
 
