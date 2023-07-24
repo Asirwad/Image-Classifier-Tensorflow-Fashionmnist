@@ -18,7 +18,7 @@ The Fashion MNIST dataset consists of 70,000 grayscale images belonging to 10 di
 The 10 classes in the dataset are:
 
 <p align="center">
-  <img src="table.png" alt="alt" width="800">
+  <img src="table.png" alt="alt" width="500">
 </p>
 
 ## Requirements
