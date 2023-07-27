@@ -12,6 +12,10 @@ img_width, img_height = 28, 28
 
 i = 0
 num_success = 0
+batch = int(input("Enter the batch size: "))
+if batch > 10000:
+    print("Should be less than 10000!")
+    exit()
 for image, actual_label in zip(test_images, test_labels):
     label_predicted = model.predict(image.reshape(1, img_width, img_height, 1))
     label_predicted_argmax = label_predicted.argmax()
@@ -21,6 +25,6 @@ for image, actual_label in zip(test_images, test_labels):
     else:
         print(f"Image {i} , actual label: {actual_label}, prediction: {label_predicted_argmax}  ,Unsuccessful")
     i += 1
-    if i == 100:
+    if i == batch:
         break
-print(f"Success rate = {num_success/100}")
+print(f"Success rate = {(num_success/batch)*100}%")
